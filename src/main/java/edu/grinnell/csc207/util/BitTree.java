@@ -7,21 +7,35 @@ import java.io.PrintWriter;
  * Trees intended to be used in storing mappings between fixed-length 
  * sequences of bits and corresponding values.
  *
- * @author Your Name Here
+ * @author Mina Bakrac
  */
 public class BitTree {
   // +--------+------------------------------------------------------
   // | Fields |
   // +--------+
 
+  /**
+   * Number of levels in the tree.
+   */
+  int levels;
+
+  /**
+   * The root of the tree.
+   */
+  BitTreeNode root;
+
   // +--------------+------------------------------------------------
   // | Constructors |
   // +--------------+
 
   /**
-   *
+   * Create a new bit tree.
+   * 
+   * @param n number of levels.
    */
   public BitTree(int n) {
+    this.levels = n;
+    this.root = null;
   } // BitTree(int)
 
   // +---------------+-----------------------------------------------
@@ -33,10 +47,17 @@ public class BitTree {
   // +---------+
 
   /**
+   * Follows path through the tree and adds or replaces value at the end.
    *
+   * @param bits the path.
+   * @param value the value to add or replace.
    */
   public void set(String bits, String value) {
-    // STUB
+    if (bits.length() != this.levels) {
+      throw new IndexOutOfBoundsException();
+    } else {
+
+    }
   } // set(String, String)
 
   /**

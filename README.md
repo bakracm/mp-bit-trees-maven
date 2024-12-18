@@ -4,12 +4,12 @@ A mini-project exploring bit trees (a form of binary tree) and their use in tran
 
 **Authors**
 
-* Your name here
+* Mina Bakrac
 * Samuel A. Rebelsky (starter code)
 
 **Acknowledgements**
 
-*
+* Referenced tree traversal lab.
 *
 *
 
@@ -19,4 +19,4 @@ _Please insert instructions here._
 
 ---
 
-This code may be found at <https://github.com/USERNAME/mp-bit-trees-maven>. The original code may be found at <https://github.com/Grinnell-CSC207/mp-bit-trees-maven>.
+This code may be found at <https://github.com/bakracm/mp-bit-trees-maven>. The original code may be found at <https://github.com/Grinnell-CSC207/mp-bit-trees-maven>.
